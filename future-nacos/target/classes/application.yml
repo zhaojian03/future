@@ -1,0 +1,10 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: future-nacos
+  cloud:
+    nacos:
+      discovery:
+        server-addr: locolhost:8848
